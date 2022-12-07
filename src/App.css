@@ -1,38 +1,42 @@
-.App {
-  text-align: center;
+@font-face {
+  font-family: "BYekan";
+  src: url("./assets/font/BYekan-webfont.eot") format("eot"), url("./assets/font/BYekan-webfont.woff") format("woff"), url("./assets/font/BYekan-webfont.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+*{
+  margin: 0;
+  padding: 0;
+  direction: rtl;
+  font-family: BYekan;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+body{
+  background: linear-gradient(90deg, rgb(239, 74, 74) 0%, rgb(111, 106, 106) 100%);
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.header {
+  background: no-repeat url('./assets/image/image.jpg');
+  background-size: cover;
+  width: 100%;
+  height: 300px;
 }
 
-.App-link {
-  color: #61dafb;
+.item-wrapper {
+  background-color: rgba(98, 83, 83, 0.8);
+  transform: translateY(-70px);
+  
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.item-wrapper li {
+  background-color: rgb(226, 214, 198);
+}
+
+.btn {
+  background: rgb(215, 122, 122);
+}
+
+.pointer {
+  cursor: pointer;
 }
