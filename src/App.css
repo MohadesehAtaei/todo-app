@@ -13,11 +13,13 @@
 }
 
 body{
-  background: linear-gradient(90deg, rgb(239, 74, 74) 0%, rgb(111, 106, 106) 100%);
+  background: linear-gradient(-90deg, rgb(239, 74, 74) 0%, rgb(111, 106, 106) 100%);
+  font-size: 20px;
 }
 
 .header {
   background: no-repeat url('./assets/image/image.jpg');
+  
   background-size: cover;
   width: 100%;
   height: 300px;
@@ -25,7 +27,7 @@ body{
 
 .item-wrapper {
   background-color: rgba(98, 83, 83, 0.8);
-  transform: translateY(-70px);
+  transform: translateY(-60px);
   
 }
 
@@ -33,8 +35,13 @@ body{
   background-color: rgb(226, 214, 198);
 }
 
+.done {
+  background-color: rgb(147, 187, 166)!important;
+}
+
 .btn {
   background: rgb(215, 122, 122);
+  font-size: 20px;
 }
 
 .pointer {
